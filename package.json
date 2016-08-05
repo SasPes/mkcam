@@ -1,0 +1,23 @@
+{
+    "name": "mkcam",
+    "preferGlobal": "true",
+    "description": "Macedonia road live webcast",
+    "version": "1.0.0",
+    "author": "SasPes <saspes@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/saspes/mkcam.git"
+    },
+    "keywords": [
+        "mk",
+        "webcast",
+        "road",
+        "cam"
+    ],
+    "dependencies": {
+        "open": ">=0.0.5"
+    },
+    "bin": {
+        "mkcam": "mkcam.js"
+    }
+}
