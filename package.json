@@ -2,7 +2,7 @@
     "name": "mkcam",
     "preferGlobal": "true",
     "description": "Macedonia road live webcast",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "SasPes <saspes@gmail.com>",
     "repository": {
         "type": "git",
@@ -19,5 +19,9 @@
     },
     "bin": {
         "mkcam": "mkcam.js"
+    },
+    "scripts": {
+        "start": "node mkcam.js bogorodica"
     }
+
 }

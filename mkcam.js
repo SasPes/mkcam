@@ -26,6 +26,9 @@ if (camUrl.length !== 1) {
         console.log(cams[i]);
     }
     process.exit();
+} else if (cams.indexOf(camUrl[0]) < 0) {
+    console.log("[ error ] no cam " + camUrl[0]);
+    process.exit();
 }
 
 var url = 'https://cdn.rawgit.com/SasPes/mkcam/master/mkcam.tpl.html#' + camUrl[0];
